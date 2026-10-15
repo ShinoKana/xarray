@@ -109,6 +109,10 @@ Breaking Changes
   Passing it to :py:func:`set_options` now raises a ``ValueError``
   (:issue:`11721`, :pull:`11729`).
   By `Daisy DAI <https://github.com/ShinoKana>`_.
+- The ``DataArray.dt.weekofyear`` and ``DataArray.dt.week`` properties,
+  deprecated since v0.16.2, have been removed. Use
+  ``DataArray.dt.isocalendar().week`` instead (:issue:`11721`).
+  By `Daisy DAI <https://github.com/ShinoKana>`_.
 
 
 Deprecations
