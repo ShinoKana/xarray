@@ -120,6 +120,9 @@ Breaking Changes
   Passing it to :py:func:`set_options` now raises a ``ValueError``
   (:issue:`11721`, :pull:`11729`).
   By `Daisy DAI <https://github.com/ShinoKana>`_.
+- The ``FacetGrid.axes`` property, deprecated since v2022.11.0, has been
+  removed. Use ``FacetGrid.axs`` instead (:issue:`11721`).
+  By `Daisy DAI <https://github.com/ShinoKana>`_.
 
 
 Deprecations
